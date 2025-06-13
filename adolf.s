@@ -9,6 +9,6 @@
 loop:
     add r3, r2, r2
     live %3945
-    lfork r2
+    lfork %:loop
     sub r1, r1, r1
     zjmp %:loop
